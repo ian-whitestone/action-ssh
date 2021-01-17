@@ -14,6 +14,9 @@ inputs:
   debug:
     description: "Used to view all environment variables in the logs, please note that this could expose sensitive data."
     default: false
+  port:
+    description: "SSH port"
+    default: 22
 runs:
   using: "docker"
   image: "Dockerfile"
